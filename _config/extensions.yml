@@ -1,0 +1,10 @@
+---
+Name: silvercart-elemental-extensions
+---
+DNADesign\Elemental\Models\ElementContent:
+    extensions:
+        - SilverCart\Elemental\Extensions\Model\ElementContentExtension
+        - SilverCart\Elemental\Extensions\Model\ElementTemplateExtension
+Dynamic\Elements\Image\Elements\ElementImage:
+    extensions:
+        - SilverCart\Elemental\Extensions\Model\ElementTemplateExtension

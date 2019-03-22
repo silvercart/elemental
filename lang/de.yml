@@ -1,0 +1,21 @@
+de:
+    SilverCart\Elemental\Extensions\Model\ElementContentExtension:
+        ColumnCount: "Anzahl Text-Spalten"
+        ShowSubTitle: "Untertitel anzeigen"
+        ShowSubTitleLabel: Wird angezeigt
+        SubTitle: "Untertitel"
+        SubTitleLabel: 'Untertitel (angezeigt, wenn ausgewählt)'
+    SilverCart\Elemental\Model\ElementTextWithImage:
+        PLURALNAME: "Text mit Bild Blöcke"
+        SINGULARNAME: "Text mit Bild Block"
+        BgColorContent: "Hintergrundfarbe Text"
+        BgColorImage: "Hintergrundfarbe Bild"
+        Content: "Inhalt"
+        Description: "Block um einen Text zusammen mit einem Bild darzustellen"
+        Layout: "Layout"
+        LayoutContentLeft: "Text links, Bild rechts"
+        LayoutContentRight: "Bild links, Text rechts"
+        ShowSubTitle: "Untertitel anzeigen"
+        ShowSubTitleLabel: Wird angezeigt
+        SubTitle: "Untertitel"
+        SubTitleLabel: 'Untertitel (angezeigt, wenn ausgewählt)'
