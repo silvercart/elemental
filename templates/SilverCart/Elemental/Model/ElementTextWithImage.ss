@@ -14,6 +14,7 @@
                         {$Image.ScaleWidth(800).Link} 900w,
                         {$Image.ScaleWidth(450).Link} 1200w"
                      alt="{$Title.StripTags}"
+                     class="img-fluid"
                  ></a>
         </div>
     </div>
