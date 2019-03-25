@@ -100,9 +100,9 @@ class ElementTextWithImage extends BaseElement
     /**
      * Returns the summary as HTML text.
      * 
-     * @return DBHTMLText
+     * @return string
      */
-    public function getSummary() : DBHTMLText
+    public function getSummary() : string
     {
         return DBField::create_field('HTMLText', $this->Content)->Summary(20);
     }
