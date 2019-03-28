@@ -1,7 +1,7 @@
 <div class="row d-flex element-text-with-image" id="element-text-with-image-{$ID}">
     <div class="col-lg-6 px-25 px-lg-45 py-30 py-lg-60 <% if $Layout == 'ContentRight' %>order-2<% end_if %>" {$StyleText}>
         <% if $ShowDisplayTitle %><h2 class="text-uppercase mb-10 line-height-30px">{$Title.RAW}</h2><% end_if %>
-        <% if $DisplayContent %><div class="text-lg">{$DisplayContent}</div><% end_if %>
+        <% if $DisplayContent %><div class="text-lg text-justify">{$DisplayContent}</div><% end_if %>
         <% if $Product %>
         <% with $Product %>
         <div class="price h1 text-right">{$PriceNice}</div>
