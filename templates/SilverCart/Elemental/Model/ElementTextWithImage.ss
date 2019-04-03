@@ -4,15 +4,15 @@
         <% if $ShowSubTitle %><h3 class="text-uppercase mt-20 mb-10 line-height-22px" {$StyleSubTitle}>{$SubTitle.RAW}</h3><% end_if %>
         <% if $Content %><div class="text-lg text-justify">{$Content}</div><% end_if %>
     </div>
-    <div class="col-lg-6 px-5px px-sm-25 px-lg-45 py-5px py-sm-30 py-lg-60 border-bottom border-lg-bottom-0 <% if $Layout == 'ContentRight' %>order-1<% end_if %>" {$StyleImage}>
+    <div class="col-lg-6 px-5px px-sm-10 px-lg-20 px-xxl-30 py-5px py-sm-10 py-lg-20 py-xxl-30 border-bottom border-lg-bottom-0 <% if $Layout == 'ContentRight' %>order-1<% end_if %>" {$StyleImage}>
         <div class="image-container text-nowrap h-100">
             <a class="fancybox d-inline-block h-100" href="{$Image.Link}">
-                <img src="{$Image.ScaleWidth(450).Link}"
+                <img src="{$Image.ScaleWidth(500).Link}"
                      srcset="
                         {$Image.ScaleWidth(220).Link} 320w,
                         {$Image.ScaleWidth(500).Link} 600w,
                         {$Image.ScaleWidth(800).Link} 900w,
-                        {$Image.ScaleWidth(450).Link} 1200w"
+                        {$Image.ScaleWidth(500).Link} 1200w"
                      alt="{$Title.StripTags}"
                      class="img-fluid"
                  ></a>
