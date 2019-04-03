@@ -22,8 +22,8 @@
         <% end_if %>
     </div>
     <div class="col-lg-6 px-5px px-sm-25 px-lg-45 py-5px py-sm-30 py-lg-60 border-bottom border-lg-bottom-0 <% if $Layout == 'ContentRight' %>order-1<% end_if %>" {$StyleImage}>
-        <div class="image-container h-100">
-            <a class="fancybox d-inline-block text-nowrap h-100" href="{$DisplayImage.Link}">
+        <div class="image-container text-nowrap h-100">
+            <a class="fancybox d-inline-block h-100" href="{$DisplayImage.Link}">
                 <img src="{$DisplayImage.ScaleWidth(450).Link}"
                      srcset="
                         {$DisplayImage.ScaleWidth(220).Link} 320w,
