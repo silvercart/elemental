@@ -53,7 +53,8 @@ class ElementTextWithImage extends BaseElement
      * @var array
      */
     private static $has_one = [
-        'Image' => Image::class
+        'Image'     => Image::class,
+        'Thumbnail' => Image::class,
     ];
 
     /**
@@ -93,6 +94,7 @@ class ElementTextWithImage extends BaseElement
             $fields->dataFieldByName('BgColorContent')->setInputType('color')->addExtraClass('w-25 d-inline-block');
             $fields->dataFieldByName('BgColorImage')->setInputType('color')->addExtraClass('w-25 d-inline-block');
             $fields->dataFieldByName('Layout')->setSource($layoutSource);
+            $fields->dataFieldByName('Thumbnail')->setDescription($this->fieldLabel('ThumbnailDesc'));
         });
         return parent::getCMSFields();
     }
@@ -197,5 +199,19 @@ class ElementTextWithImage extends BaseElement
     public function getType() : string
     {
         return _t(self::class . '.BlockType', 'Text with image');
+    }
+    
+    /**
+     * Returns the preview image.
+     * 
+     * @return Image
+     */
+    public function PreviewImage() : Image
+    {
+        $previewImage = $this->Image();
+        if ($this->Thumbnail()->exists()) {
+            $previewImage = $this->Thumbnail();
+        }
+        return $previewImage;
     }
 }

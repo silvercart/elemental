@@ -34,3 +34,5 @@ de:
         ShowSubTitleLabel: Wird angezeigt
         SubTitle: "Untertitel"
         SubTitleLabel: 'Untertitel (angezeigt, wenn ausgewählt)'
+        Thumbnail: "Thumbnail (optional)"
+        ThumbnailDesc: "Optionales Thumbnail. Wird für die Anzeige verwendet, bevor auf das Bild geklickt wird."
