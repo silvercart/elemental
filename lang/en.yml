@@ -1,0 +1,38 @@
+en:
+    SilverCart\Elemental\Extensions\Model\ElementContentExtension:
+        ColumnCount: 'Number of text columns'
+        ShowSubTitle: 'Show subtitles'
+        ShowSubTitleLabel: Displayed
+        SubTitle: subtitles
+        SubTitleLabel: 'Subtitles (displayed when selected)'
+    SilverCart\Elemental\Model\ElementProduct:
+        PLURALNAME: 'Shop Articles Blocks'
+        SINGULARNAME: 'Shop Articles Block'
+        BgColorContent: 'Background color Text'
+        BgColorImage: 'Background color Image'
+        BlockType: 'Shop items'
+        Content: Content
+        ContentDesc: 'Leave blank to use the article text.'
+        Description: 'Block to display a shop article'
+        Image: Image
+        ImageDesc: 'Leave blank to use the article image.'
+        Layout: Layout
+        LayoutContentLeft: 'Text left, image right'
+        LayoutContentRight: 'Image left, text right'
+    SilverCart\Elemental\Model\ElementTextWithImage:
+        PLURALNAME: 'Text with image blocks'
+        SINGULARNAME: 'Text with image block'
+        BgColorContent: 'Background color text'
+        BgColorImage: 'Background color Image'
+        BlockType: 'Text with image'
+        Content: Content
+        Description: 'Block to display a text together with an image'
+        Layout: Layout
+        LayoutContentLeft: 'Text left, image right'
+        LayoutContentRight: 'Image left, text right'
+        ShowSubTitle: 'Show subtitles'
+        ShowSubTitleLabel: Displayed
+        SubTitle: Subtitles
+        SubTitleLabel: 'Subtitles (displayed when selected)'
+        Thumbnail: 'Thumbnail (optional)'
+        ThumbnailDesc: 'Optional thumbnail. Used for display before clicking on the image.'
