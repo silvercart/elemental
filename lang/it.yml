@@ -6,14 +6,14 @@ it:
         SubTitle: Sottotitoli
         SubTitleLabel: 'Sottotitoli (visualizzati se selezionati)'
     SilverCart\Elemental\Model\ElementProduct:
-        PLURALNAME: 'Acquista blocchi di articoli'
-        SINGULARNAME: 'Acquista blocchi di articoli'
+        PLURALNAME: 'Blocchi articoli portale acquisti'
+        SINGULARNAME: 'Blocco articoli portale acquisti'
         BgColorContent: 'Colore sfondo di Testo'
         BgColorImage: 'Colore sfondo d''Immagine'
         BlockType: 'Acquista articoli'
         Content: Contenuto
         ContentDesc: 'Lasciare vuoto per utilizzare il testo dell''articolo.'
-        Description: 'Blocca per visualizzare un articolo del negozio'
+        Description: 'Blocca per visualizzare un articolo sul portale.'
         Image: Immagine
         ImageDesc: 'Lasciare vuoto per utilizzare l''immagine dell''articolo.'
         Layout: Layout
@@ -22,8 +22,8 @@ it:
     SilverCart\Elemental\Model\ElementTextWithImage:
         PLURALNAME: 'Testo con blocchi immagine'
         SINGULARNAME: 'Testo con blocco immagine'
-        BgColorContent: 'Sfondo a colori testo'
-        BgColorImage: 'Sfondo a colori immagine'
+        BgColorContent: 'Sfondo a colori del testo'
+        BgColorImage: 'Sfondo a colori d''immagine'
         BlockType: 'Testo con immagine'
         Content: Contenuto
         Description: 'Blocco per visualizzare un testo insieme a un''immagine'
@@ -35,4 +35,4 @@ it:
         SubTitle: Sottotitoli
         SubTitleLabel: 'Sottotitoli (visualizzati quando selezionato)'
         Thumbnail: 'Thumbnail (opzionale)'
-        ThumbnailDesc: 'Miniatura opzionale. Viene utilizzato per la visualizzazione per l''annuncio prima di fare clic sull''immagine.'
+        ThumbnailDesc: 'Thumbnail opzionale. Viene utilizzato per la visualizzazione per l''annuncio prima di fare clic sull''immagine.'
