@@ -29,7 +29,8 @@
                         {$DisplayImage.ScaleWidth(220).Link} 320w,
                         {$DisplayImage.ScaleWidth(500).Link} 600w,
                         {$DisplayImage.ScaleWidth(800).Link} 900w,
-                        {$DisplayImage.ScaleWidth(450).Link} 1200w"
+                        {$DisplayImage.ScaleWidth(450).Link} 1200w,
+                        {$DisplayImage.ScaleWidth(900).Link} 1600w"
                      alt="{$Title.StripTags}"
                      class="img-fluid"
                  ></a>
