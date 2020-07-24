@@ -6,8 +6,8 @@ it:
         SubTitle: Sottotitoli
         SubTitleLabel: 'Sottotitoli (visualizzati se selezionati)'
     SilverCart\Elemental\Model\ElementProduct:
-        PLURALNAME: 'Blocchi articoli portale acquisti'
-        SINGULARNAME: 'Blocco articoli portale acquisti'
+        PLURALNAME: 'Blocchi articoli Portale Acquisti'
+        SINGULARNAME: 'Blocco articoli Portale Acquisti'
         BgColorContent: 'Colore sfondo di Testo'
         BgColorImage: 'Colore sfondo d''Immagine'
         BlockType: 'Acquista articoli'
@@ -35,4 +35,4 @@ it:
         SubTitle: Sottotitoli
         SubTitleLabel: 'Sottotitoli (visualizzati quando selezionato)'
         Thumbnail: 'Thumbnail (opzionale)'
-        ThumbnailDesc: 'Thumbnail opzionale. Viene utilizzato per la visualizzazione per l''annuncio prima di fare clic sull''immagine.'
+        ThumbnailDesc: 'Thumbnail opzionale. Viene utilizzato per la visualizzazione prima di fare clic sull''immagine.'
