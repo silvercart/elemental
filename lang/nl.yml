@@ -1,0 +1,38 @@
+nl:
+    SilverCart\Elemental\Extensions\Model\ElementContentExtension:
+        ColumnCount: 'Aantal tekstkolommen'
+        ShowSubTitle: 'Toon details'
+        ShowSubTitleLabel: 'Wordt weergegeven bij'
+        SubTitle: Ondertitels
+        SubTitleLabel: 'Ondertitel (weergegeven wanneer geselecteerd)'
+    SilverCart\Elemental\Model\ElementProduct:
+        PLURALNAME: 'Winkel item blokken'
+        SINGULARNAME: 'Blok winkelobject'
+        BgColorContent: 'Achtergrondkleur tekst'
+        BgColorImage: Achtergrondkleurafbeelding
+        BlockType: 'Shop artikelen'
+        Content: Inhoud
+        ContentDesc: 'Laat leeg om artikeltekst te gebruiken.'
+        Description: 'Blokkeer om een winkelitem weer te geven'
+        Image: Image
+        ImageDesc: 'Laat leeg om artikeltekst te gebruiken.'
+        Layout: Lay-out
+        LayoutContentLeft: 'Tekst links, afbeelding rechts'
+        LayoutContentRight: 'Tekst links, afbeelding rechts'
+    SilverCart\Elemental\Model\ElementTextWithImage:
+        PLURALNAME: 'Tekst met beeldblokken'
+        SINGULARNAME: 'Tekst met beeldblokken'
+        BgColorContent: 'Achtergrondkleur tekst'
+        BgColorImage: Achtergrondkleurafbeelding
+        BlockType: 'Tekst links, afbeelding rechts'
+        Content: Inhoud
+        Description: 'Blokkeer om een winkelitem weer te geven'
+        Layout: Lay-out
+        LayoutContentLeft: 'Tekst links, afbeelding rechts'
+        LayoutContentRight: 'Tekst links, afbeelding rechts'
+        ShowSubTitle: 'Toon details'
+        ShowSubTitleLabel: 'Wordt weergegeven bij'
+        SubTitle: Ondertitels
+        SubTitleLabel: 'Ondertitel (weergegeven wanneer geselecteerd)'
+        Thumbnail: 'Thumbnail (optioneel)'
+        ThumbnailDesc: 'Optionele miniatuur. Wordt gebruikt voor weergave voordat u op de afbeelding klikt.'
