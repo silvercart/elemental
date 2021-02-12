@@ -9,30 +9,30 @@ nl:
         PLURALNAME: 'Winkel item blokken'
         SINGULARNAME: 'Blok winkelobject'
         BgColorContent: 'Achtergrondkleur tekst'
-        BgColorImage: Achtergrondkleurafbeelding
-        BlockType: 'Shop artikelen'
+        BgColorImage: 'Achtergrondkleur afbeelding'
+        BlockType: Winkelartikelen
         Content: Inhoud
         ContentDesc: 'Laat leeg om artikeltekst te gebruiken.'
         Description: 'Blokkeer om een winkelitem weer te geven'
-        Image: Image
+        Image: Afbeelding
         ImageDesc: 'Laat leeg om artikeltekst te gebruiken.'
         Layout: Lay-out
         LayoutContentLeft: 'Tekst links, afbeelding rechts'
-        LayoutContentRight: 'Tekst links, afbeelding rechts'
+        LayoutContentRight: 'Afbeelding links, tekst rechts'
     SilverCart\Elemental\Model\ElementTextWithImage:
         PLURALNAME: 'Tekst met beeldblokken'
         SINGULARNAME: 'Tekst met beeldblokken'
         BgColorContent: 'Achtergrondkleur tekst'
-        BgColorImage: Achtergrondkleurafbeelding
-        BlockType: 'Tekst links, afbeelding rechts'
+        BgColorImage: 'Achtergrondkleur afbeelding'
+        BlockType: 'Tekst met afbeelding'
         Content: Inhoud
         Description: 'Blokkeer om een winkelitem weer te geven'
         Layout: Lay-out
         LayoutContentLeft: 'Tekst links, afbeelding rechts'
-        LayoutContentRight: 'Tekst links, afbeelding rechts'
+        LayoutContentRight: 'Afbeelding links, tekst rechts'
         ShowSubTitle: 'Toon details'
         ShowSubTitleLabel: 'Wordt weergegeven bij'
         SubTitle: Ondertitels
         SubTitleLabel: 'Ondertitel (weergegeven wanneer geselecteerd)'
-        Thumbnail: 'Thumbnail (optioneel)'
+        Thumbnail: 'Miniatuur (optioneel)'
         ThumbnailDesc: 'Optionele miniatuur. Wordt gebruikt voor weergave voordat u op de afbeelding klikt.'
