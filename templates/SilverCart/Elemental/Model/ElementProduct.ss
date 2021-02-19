@@ -1,5 +1,5 @@
 <div class="row d-flex element-text-with-image" id="element-text-with-image-{$ID}">
-    <div class="col-lg-6 px-25 px-lg-45 py-30 py-lg-60 border-bottom border-lg-bottom-0 <% if $Layout == 'ContentRight' %>order-2<% end_if %>" {$StyleText}>
+    <div class="col-lg-6 px-25 px-lg-45 py-30 py-lg-60 border-bottom border-lg-bottom-0 <% if $Layout == 'ContentRight' %>order-lg-2<% end_if %>" {$StyleText}>
         <% if $ShowDisplayTitle %><h2 class="text-uppercase mb-10 line-height-30px">{$Title.RAW}</h2><% end_if %>
         <% if $DisplayContent %><div class="text-lg text-justify">{$DisplayContent}</div><% end_if %>
         <% if $Product %>
@@ -21,9 +21,9 @@
             <% end_with %>
         <% end_if %>
     </div>
-    <div class="col-lg-6 px-5px px-sm-10 px-lg-20 px-xxl-30 py-5px py-sm-10 py-lg-20 py-xxl-30 border-bottom border-lg-bottom-0 <% if $Layout == 'ContentRight' %>order-1<% end_if %>" {$StyleImage}>
+    <div class="col-lg-6 px-5px px-sm-10 px-lg-20 px-xxl-30 py-5px py-sm-10 py-lg-20 py-xxl-30 border-bottom border-lg-bottom-0 <% if $Layout == 'ContentRight' %>order-lg-1<% end_if %>" {$StyleImage}>
         <div class="image-container text-nowrap h-100">
-            <a class="fancybox d-inline-block h-100" href="{$DisplayImage.Link}">
+            <a class="fancybox d-none d-md-inline-block h-100" href="{$DisplayImage.Link}">
                 <img src="{$DisplayImage.ScaleWidth(450).Link}"
                      srcset="
                         {$DisplayImage.ScaleWidth(220).Link} 320w,
@@ -34,7 +34,18 @@
                      alt="{$Title.StripTags}"
                      class="img-fluid"
                  ></a>
-                <span class="alignment-helper"></span>
+            <span class="d-inline-block d-md-none h-100">
+                <img src="{$DisplayImage.ScaleWidth(450).Link}"
+                     srcset="
+                        {$DisplayImage.ScaleWidth(220).Link} 320w,
+                        {$DisplayImage.ScaleWidth(500).Link} 600w,
+                        {$DisplayImage.ScaleWidth(800).Link} 900w,
+                        {$DisplayImage.ScaleWidth(450).Link} 1200w,
+                        {$DisplayImage.ScaleWidth(900).Link} 1600w"
+                     alt="{$Title.StripTags}"
+                     class="img-fluid"
+                     ></span>
+            <span class="alignment-helper"></span>
         </div>
     </div>
 </div>
