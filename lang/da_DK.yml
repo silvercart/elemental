@@ -1,0 +1,38 @@
+da_DK:
+    SilverCart\Elemental\Extensions\Model\ElementContentExtension:
+        ColumnCount: 'Antal tekstspalter'
+        ShowSubTitle: 'Vis undertekster'
+        ShowSubTitleLabel: Vises
+        SubTitle: undertekster
+        SubTitleLabel: 'Undertekst (vises, når den er valgt)'
+    SilverCart\Elemental\Model\ElementProduct:
+        PLURALNAME: 'Butiksartikler blokke'
+        SINGULARNAME: 'Shop artikler Bloker'
+        BgColorContent: 'Baggrundsfarve tekst'
+        BgColorImage: 'Baggrundsfarve billede'
+        BlockType: 'Shop artikler'
+        Content: Indhold
+        ContentDesc: 'Lad det være tomt for at bruge artiklens tekst.'
+        Description: 'Blok til visning af en butiksartikel'
+        Image: Billede
+        ImageDesc: 'Lad det være tomt for at bruge artiklens billede.'
+        Layout: Layout
+        LayoutContentLeft: 'Tekst til venstre, billede til højre'
+        LayoutContentRight: 'Billede til venstre, tekst til højre'
+    SilverCart\Elemental\Model\ElementTextWithImage:
+        PLURALNAME: 'Tekst med billedblokke'
+        SINGULARNAME: 'Tekst med billedblok'
+        BgColorContent: 'Baggrundsfarve tekst'
+        BgColorImage: 'Baggrundsfarve billede'
+        BlockType: 'Tekst med billede'
+        Content: Indhold
+        Description: 'Blok til at vise en tekst sammen med et billede'
+        Layout: Layout
+        LayoutContentLeft: 'Tekst til venstre, billede til højre'
+        LayoutContentRight: 'Billede til venstre, tekst til højre'
+        ShowSubTitle: 'Vis undertekster'
+        ShowSubTitleLabel: Vises
+        SubTitle: Undertekster
+        SubTitleLabel: 'Undertekster (vises, når de er valgt)'
+        Thumbnail: 'Miniaturebillede (valgfrit)'
+        ThumbnailDesc: 'Valgfrit miniaturebillede. Bruges til visning, før der klikkes på billedet.'
