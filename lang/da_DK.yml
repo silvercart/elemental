@@ -10,7 +10,7 @@ da_DK:
         SINGULARNAME: 'Shop artikler Bloker'
         BgColorContent: 'Baggrundsfarve tekst'
         BgColorImage: 'Baggrundsfarve billede'
-        BlockType: 'Shop artikler'
+        BlockType: 'Shop vare'
         Content: Indhold
         ContentDesc: 'Lad det være tomt for at bruge artiklens tekst.'
         Description: 'Blok til visning af en butiksartikel'
