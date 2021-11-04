@@ -1,38 +1,38 @@
 de:
-    SilverCart\Elemental\Extensions\Model\ElementContentExtension:
-        ColumnCount: 'Anzahl Text-Spalten'
-        ShowSubTitle: 'Untertitel anzeigen'
-        ShowSubTitleLabel: 'Wird angezeigt'
-        SubTitle: Untertitel
-        SubTitleLabel: 'Untertitel (angezeigt, wenn ausgewählt)'
-    SilverCart\Elemental\Model\ElementProduct:
-        PLURALNAME: 'Shop-Artikel Blöcke'
-        SINGULARNAME: 'Shop-Artikel Block'
-        BgColorContent: 'Hintergrundfarbe Text'
-        BgColorImage: 'Hintergrundfarbe Bild'
-        BlockType: Shop-Artikel
-        Content: Inhalt
-        ContentDesc: 'Leer lassen, um den Artikel-Text zu verwenden.'
-        Description: 'Block um einen Shop-Artikel darzustellen'
-        Image: Bild
-        ImageDesc: 'Leer lassen, um das Artikel-Bild zu verwenden.'
-        Layout: Layout
-        LayoutContentLeft: 'Text links, Bild rechts'
-        LayoutContentRight: 'Bild links, Text rechts'
-    SilverCart\Elemental\Model\ElementTextWithImage:
-        PLURALNAME: 'Text mit Bild Blöcke'
-        SINGULARNAME: 'Text mit Bild Block'
-        BgColorContent: 'Hintergrundfarbe Text'
-        BgColorImage: 'Hintergrundfarbe Bild'
-        BlockType: 'Text mit Bild'
-        Content: Inhalt
-        Description: 'Block um einen Text zusammen mit einem Bild darzustellen'
-        Layout: Layout
-        LayoutContentLeft: 'Text links, Bild rechts'
-        LayoutContentRight: 'Bild links, Text rechts'
-        ShowSubTitle: 'Untertitel anzeigen'
-        ShowSubTitleLabel: 'Wird angezeigt'
-        SubTitle: Untertitel
-        SubTitleLabel: 'Untertitel (angezeigt, wenn ausgewählt)'
-        Thumbnail: 'Thumbnail (optional)'
-        ThumbnailDesc: 'Optionales Thumbnail. Wird für die Anzeige verwendet, bevor auf das Bild geklickt wird.'
+  SilverCart\Elemental\Extensions\Model\ElementContentExtension:
+    ColumnCount: 'Anzahl Text-Spalten'
+    ShowSubTitle: 'Untertitel anzeigen'
+    ShowSubTitleLabel: 'Wird angezeigt'
+    SubTitle: Untertitel
+    SubTitleLabel: 'Untertitel (angezeigt, wenn ausgewählt)'
+  SilverCart\Elemental\Model\ElementProduct:
+    BgColorContent: 'Hintergrundfarbe Text'
+    BgColorImage: 'Hintergrundfarbe Bild'
+    BlockType: Shop-Artikel
+    Content: Inhalt
+    ContentDesc: 'Leer lassen, um den Artikel-Text zu verwenden.'
+    Description: 'Block um einen Shop-Artikel darzustellen'
+    Image: Bild
+    ImageDesc: 'Leer lassen, um das Artikel-Bild zu verwenden.'
+    Layout: Layout
+    LayoutContentLeft: 'Text links, Bild rechts'
+    LayoutContentRight: 'Bild links, Text rechts'
+    PLURALNAME: 'Shop-Artikel Blöcke'
+    SINGULARNAME: 'Shop-Artikel Block'
+  SilverCart\Elemental\Model\ElementTextWithImage:
+    BgColorContent: 'Hintergrundfarbe Text'
+    BgColorImage: 'Hintergrundfarbe Bild'
+    BlockType: 'Text mit Bild'
+    Content: Inhalt
+    Description: 'Block um einen Text zusammen mit einem Bild darzustellen'
+    Layout: Layout
+    LayoutContentLeft: 'Text links, Bild rechts'
+    LayoutContentRight: 'Bild links, Text rechts'
+    PLURALNAME: 'Text mit Bild Blöcke'
+    SINGULARNAME: 'Text mit Bild Block'
+    ShowSubTitle: 'Untertitel anzeigen'
+    ShowSubTitleLabel: 'Wird angezeigt'
+    SubTitle: Untertitel
+    SubTitleLabel: 'Untertitel (angezeigt, wenn ausgewählt)'
+    Thumbnail: 'Thumbnail (optional)'
+    ThumbnailDesc: 'Optionales Thumbnail. Wird für die Anzeige verwendet, bevor auf das Bild geklickt wird.'
