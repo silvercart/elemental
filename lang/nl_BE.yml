@@ -33,6 +33,6 @@ nl_BE:
     ShowSubTitle: 'Ondertitel weergeven'
     ShowSubTitleLabel: 'Wordt weergegeven'
     SubTitle: Ondertitel
-    SubTitleLabel: 'Ondertitel (weergegeven als geselecteerd)'
+    SubTitleLabel: 'Ondertitels (weergegeven als geselecteerd)'
     Thumbnail: 'Thumbnail (optioneel)'
     ThumbnailDesc: 'Optionele Thumbnail. Wordt gebruikt voor de weergave voordat u op de afbeelding klikt.'
