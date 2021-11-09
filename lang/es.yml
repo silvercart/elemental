@@ -1,0 +1,38 @@
+es:
+  SilverCart\Elemental\Extensions\Model\ElementContentExtension:
+    ColumnCount: 'Número de columnas de texto'
+    ShowSubTitle: 'Mostrar subtítulos'
+    ShowSubTitleLabel: 'Se muestra'
+    SubTitle: Subtítulo
+    SubTitleLabel: 'Subtítulos (aparecen cuando se seleccionan)'
+  SilverCart\Elemental\Model\ElementProduct:
+    BgColorContent: 'Color de fondo del texto'
+    BgColorImage: 'Imagen de color de fondo'
+    BlockType: 'Artículos de la tienda'
+    Content: Contenido
+    ContentDesc: 'Dejar en blanco para utilizar el texto del artículo.'
+    Description: 'Bloque para mostrar un artículo de la tienda'
+    Image: Imagen
+    ImageDesc: 'Dejar en blanco para utilizar la imagen del artículo.'
+    Layout: Diseño
+    LayoutContentLeft: 'Texto a la izquierda, imagen a la derecha'
+    LayoutContentRight: 'Imagen a la izquierda, texto a la derecha'
+    PLURALNAME: 'Tienda de artículos Bloques'
+    SINGULARNAME: 'Bloque de artículos de la tienda'
+  SilverCart\Elemental\Model\ElementTextWithImage:
+    BgColorContent: 'Color de fondo del texto'
+    BgColorImage: 'Imagen de color de fondo'
+    BlockType: 'Texto con imagen'
+    Content: Contenido
+    Description: 'Bloque para mostrar un texto junto con una imagen'
+    Layout: Diseño
+    LayoutContentLeft: 'Texto a la izquierda, imagen a la derecha'
+    LayoutContentRight: 'Imagen a la izquierda, texto a la derecha'
+    PLURALNAME: 'Texto con bloques de imágenes'
+    SINGULARNAME: 'Texto con bloque de imágenes'
+    ShowSubTitle: 'Mostrar subtítulos'
+    ShowSubTitleLabel: 'Se muestra'
+    SubTitle: Subtítulo
+    SubTitleLabel: 'Subtítulos (aparecen cuando se seleccionan)'
+    Thumbnail: 'Miniatura (opcional)'
+    ThumbnailDesc: 'Miniatura opcional. Se utiliza para mostrar antes de hacer clic en la imagen.'

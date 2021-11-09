@@ -1,0 +1,38 @@
+sk:
+  SilverCart\Elemental\Extensions\Model\ElementContentExtension:
+    ColumnCount: 'Počet textových stĺpcov'
+    ShowSubTitle: 'Zobraziť titulky'
+    ShowSubTitleLabel: 'Zobrazené na'
+    SubTitle: Podtitul
+    SubTitleLabel: 'Titulky (zobrazia sa po výbere)'
+  SilverCart\Elemental\Model\ElementProduct:
+    BgColorContent: 'Farba pozadia textu'
+    BgColorImage: 'Farebný obrázok na pozadí'
+    BlockType: 'Obchod s článkami'
+    Content: Obsah
+    ContentDesc: 'Ak chcete použiť text článku, nechajte prázdne miesto.'
+    Description: 'Blok na zobrazenie tovaru v obchode'
+    Image: Obrázok
+    ImageDesc: 'Ak chcete použiť obrázok článku, nechajte prázdne.'
+    Layout: Rozloženie
+    LayoutContentLeft: 'Text vľavo, obrázok vpravo'
+    LayoutContentRight: 'Obrázok vľavo, text vpravo'
+    PLURALNAME: 'Obchodný článok Bloky'
+    SINGULARNAME: 'Obchodný blok článkov'
+  SilverCart\Elemental\Model\ElementTextWithImage:
+    BgColorContent: 'Farba pozadia textu'
+    BgColorImage: 'Farebný obrázok na pozadí'
+    BlockType: 'Text s obrázkom'
+    Content: Obsah
+    Description: 'Blok na zobrazenie textu spolu s obrázkom'
+    Layout: Rozloženie
+    LayoutContentLeft: 'Text vľavo, obrázok vpravo'
+    LayoutContentRight: 'Obrázok vľavo, text vpravo'
+    PLURALNAME: 'Text s obrázkovými blokmi'
+    SINGULARNAME: 'Text s obrázkovým blokom'
+    ShowSubTitle: 'Zobraziť titulky'
+    ShowSubTitleLabel: 'Zobrazené na'
+    SubTitle: Podtitul
+    SubTitleLabel: 'Titulky (zobrazia sa po výbere)'
+    Thumbnail: 'Miniatúra (voliteľná)'
+    ThumbnailDesc: 'Voliteľná miniatúra. Používa sa na zobrazenie pred kliknutím na obrázok.'

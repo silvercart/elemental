@@ -1,0 +1,38 @@
+tr_TR:
+  SilverCart\Elemental\Extensions\Model\ElementContentExtension:
+    ColumnCount: 'Metin sütunlarının sayısı'
+    ShowSubTitle: 'Altyazıları Göster'
+    ShowSubTitleLabel: görüntüleniyor
+    SubTitle: 'alt yazı'
+    SubTitleLabel: 'Altyazılar (seçildiğinde görüntülenir)'
+  SilverCart\Elemental\Model\ElementProduct:
+    BgColorContent: 'Arka plan rengi metni'
+    BgColorImage: 'Arka plan rengi resmi'
+    BlockType: 'Mağaza öğesi'
+    Content: içindekiler
+    ContentDesc: 'Makale metnini kullanmak için boş bırakın.'
+    Description: 'Bir mağaza öğesini görüntülemek için engelle'
+    Image: resim
+    ImageDesc: 'Makale resmini kullanmak için boş bırakın.'
+    Layout: Yerleşim
+    LayoutContentLeft: 'Soldaki metin, sağdaki resim'
+    LayoutContentRight: 'Soldaki resim, sağdaki metin'
+    PLURALNAME: 'Öğe bloklarını satın alın'
+    SINGULARNAME: 'Mağaza öğesi bloğu'
+  SilverCart\Elemental\Model\ElementTextWithImage:
+    BgColorContent: 'Arka plan rengi metni'
+    BgColorImage: 'Arka plan rengi resmi'
+    BlockType: 'resimli metin'
+    Content: içindekiler
+    Description: 'Bir metni bir resimle birlikte görüntülemek için engelle'
+    Layout: Yerleşim
+    LayoutContentLeft: 'Soldaki metin, sağdaki resim'
+    LayoutContentRight: 'Soldaki resim, sağdaki metin'
+    PLURALNAME: 'Resim blokları içeren metin'
+    SINGULARNAME: 'Resim bloklu metin'
+    ShowSubTitle: 'Altyazıları Göster'
+    ShowSubTitleLabel: görüntüleniyor
+    SubTitle: 'alt yazı'
+    SubTitleLabel: 'Altyazılar (seçildiğinde görüntülenir)'
+    Thumbnail: 'Küçük resim (isteğe bağlı)'
+    ThumbnailDesc: 'İsteğe bağlı küçük resim. Resim tıklanmadan önce görüntülemek için kullanılır.'

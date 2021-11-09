@@ -1,0 +1,38 @@
+sv:
+  SilverCart\Elemental\Extensions\Model\ElementContentExtension:
+    ColumnCount: 'Antal textkolumner'
+    ShowSubTitle: 'Visa undertexter'
+    ShowSubTitleLabel: Visad
+    SubTitle: Undertitel
+    SubTitleLabel: 'Undertexter (visas när det är valt)'
+  SilverCart\Elemental\Model\ElementProduct:
+    BgColorContent: 'Bakgrundsfärg text'
+    BgColorImage: 'Bakgrundsfärgad bild'
+    BlockType: 'Handla artiklar'
+    Content: Innehåll
+    ContentDesc: 'Lämna tomt om du vill använda artikeltexten.'
+    Description: 'Block för att visa en butiksartikel'
+    Image: Bild
+    ImageDesc: 'Lämna tomt om du vill använda artikelbilden.'
+    Layout: Layout
+    LayoutContentLeft: 'Text till vänster, bild till höger'
+    LayoutContentRight: 'Bild till vänster, text till höger'
+    PLURALNAME: 'Shop artikel Blocks'
+    SINGULARNAME: 'Butiksartikel block'
+  SilverCart\Elemental\Model\ElementTextWithImage:
+    BgColorContent: 'Bakgrundsfärg text'
+    BgColorImage: 'Bakgrundsfärgad bild'
+    BlockType: 'Text med bild'
+    Content: Innehåll
+    Description: 'Block för att visa en text tillsammans med en bild'
+    Layout: Layout
+    LayoutContentLeft: 'Text till vänster, bild till höger'
+    LayoutContentRight: 'Bild till vänster, text till höger'
+    PLURALNAME: 'Text med bildblock'
+    SINGULARNAME: 'Text med bildblock'
+    ShowSubTitle: 'Visa undertexter'
+    ShowSubTitleLabel: Visad
+    SubTitle: Undertitel
+    SubTitleLabel: 'Undertexter (visas när det är valt)'
+    Thumbnail: 'Miniatyrbild (valfritt)'
+    ThumbnailDesc: 'Valfri miniatyrbild. Används för visning innan man klickar på bilden.'

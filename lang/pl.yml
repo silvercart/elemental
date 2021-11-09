@@ -1,0 +1,38 @@
+pl:
+  SilverCart\Elemental\Extensions\Model\ElementContentExtension:
+    ColumnCount: 'Liczba kolumn tekstowych'
+    ShowSubTitle: 'Pokaż napisy'
+    ShowSubTitleLabel: Wyświetlane
+    SubTitle: Podtytuł
+    SubTitleLabel: 'Napisy (wyświetlane po wybraniu)'
+  SilverCart\Elemental\Model\ElementProduct:
+    BgColorContent: 'Kolor tła tekstu'
+    BgColorImage: 'Kolor tła obrazu'
+    BlockType: 'Artykuły sklepowe'
+    Content: Treść
+    ContentDesc: 'Pozostaw puste, aby użyć tekstu artykułu.'
+    Description: 'Blok do wyświetlania artykułu w sklepie'
+    Image: Obraz
+    ImageDesc: 'Pozostaw puste, aby użyć obrazu artykułu.'
+    Layout: Układ
+    LayoutContentLeft: 'Tekst po lewej, zdjęcie po prawej'
+    LayoutContentRight: 'Zdjęcie po lewej, tekst po prawej'
+    PLURALNAME: 'Sklep artykuły Bloki'
+    SINGULARNAME: 'Blok artykułów sklepowych'
+  SilverCart\Elemental\Model\ElementTextWithImage:
+    BgColorContent: 'Kolor tła tekstu'
+    BgColorImage: 'Kolor tła obrazu'
+    BlockType: 'Tekst z obrazkiem'
+    Content: Treść
+    Description: 'Blok do wyświetlania tekstu wraz z obrazkiem'
+    Layout: Układ
+    LayoutContentLeft: 'Tekst po lewej, zdjęcie po prawej'
+    LayoutContentRight: 'Zdjęcie po lewej, tekst po prawej'
+    PLURALNAME: 'Tekst z blokami graficznymi'
+    SINGULARNAME: 'Tekst z blokiem zdjęć'
+    ShowSubTitle: 'Pokaż napisy'
+    ShowSubTitleLabel: Wyświetlane
+    SubTitle: Podtytuł
+    SubTitleLabel: 'Napisy (wyświetlane po wybraniu)'
+    Thumbnail: 'Miniaturka (opcjonalnie)'
+    ThumbnailDesc: 'Opcjonalna miniatura. Służy do wyświetlania przed kliknięciem na obrazek.'

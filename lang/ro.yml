@@ -1,0 +1,38 @@
+ro:
+  SilverCart\Elemental\Extensions\Model\ElementContentExtension:
+    ColumnCount: 'Numărul de coloane de text'
+    ShowSubTitle: 'Afișați subtitrările'
+    ShowSubTitleLabel: Afișat
+    SubTitle: Subtitlu
+    SubTitleLabel: 'Subtitrări (afișate atunci când sunt selectate)'
+  SilverCart\Elemental\Model\ElementProduct:
+    BgColorContent: 'Culoare de fundal text'
+    BgColorImage: 'Imagine de culoare de fundal'
+    BlockType: 'Articole de magazin'
+    Content: Conținut
+    ContentDesc: 'Lăsați spațiul gol pentru a utiliza textul articolului.'
+    Description: 'Bloc pentru a afișa un articol de magazin'
+    Image: Imagine
+    ImageDesc: 'Lăsați spațiul gol pentru a utiliza imaginea articolului.'
+    Layout: Layout
+    LayoutContentLeft: 'Text stânga, imagine dreapta'
+    LayoutContentRight: 'Imagine la stânga, text la dreapta'
+    PLURALNAME: 'Articolul de magazin Blocuri'
+    SINGULARNAME: 'Bloc de articole de magazin'
+  SilverCart\Elemental\Model\ElementTextWithImage:
+    BgColorContent: 'Culoare de fundal text'
+    BgColorImage: 'Imagine de culoare de fundal'
+    BlockType: 'Text cu imagine'
+    Content: Conținut
+    Description: 'Bloc pentru a afișa un text împreună cu o imagine'
+    Layout: Layout
+    LayoutContentLeft: 'Text stânga, imagine dreapta'
+    LayoutContentRight: 'Imagine la stânga, text la dreapta'
+    PLURALNAME: 'Text cu blocuri de imagini'
+    SINGULARNAME: 'Text cu bloc de imagini'
+    ShowSubTitle: 'Afișați subtitrările'
+    ShowSubTitleLabel: Afișat
+    SubTitle: Subtitlu
+    SubTitleLabel: 'Subtitrări (afișate atunci când sunt selectate)'
+    Thumbnail: 'Miniatură (opțional)'
+    ThumbnailDesc: 'Miniatură opțională. Utilizat pentru afișarea înainte de a se face clic pe imagine.'

@@ -1,0 +1,37 @@
+cs:
+  SilverCart\Elemental\Extensions\Model\ElementContentExtension:
+    ColumnCount: 'Počet textových sloupců'
+    ShowSubTitle: 'Zobrazit titulky'
+    ShowSubTitleLabel: 'Zobrazeno na'
+    SubTitle: Podtitul
+    SubTitleLabel: 'Titulky (zobrazí se při výběru)'
+  SilverCart\Elemental\Model\ElementProduct:
+    BgColorContent: 'Barva pozadí textu'
+    BgColorImage: 'Barevný obrázek na pozadí'
+    BlockType: 'Obchodní články'
+    Content: Obsah
+    ContentDesc: 'Pro použití textu článku ponechte prázdné místo.'
+    Description: 'Blok pro zobrazení zboží v obchodě'
+    Image: Obrázek
+    ImageDesc: 'Pro použití obrázku článku ponechte prázdné pole.'
+    Layout: Rozložení
+    LayoutContentLeft: 'Text vlevo, obrázek vpravo'
+    LayoutContentRight: 'Obrázek vlevo, text vpravo'
+    PLURALNAME: 'Obchodní článek Bloky'
+    SINGULARNAME: 'Blok článků v obchodě'
+  SilverCart\Elemental\Model\ElementTextWithImage:
+    BgColorContent: 'Barva pozadí textu'
+    BgColorImage: 'Barevný obrázek na pozadí'
+    BlockType: 'Text s obrázkem'
+    Content: Obsah
+    Description: 'Blok pro zobrazení textu spolu s obrázkem'
+    Layout: Rozložení
+    LayoutContentLeft: 'Text vlevo, obrázek vpravo'
+    LayoutContentRight: 'Obrázek vlevo, text vpravo'
+    PLURALNAME: 'Text s bloky obrázků'
+    SINGULARNAME: 'Text s blokem obrázků'
+    ShowSubTitle: 'Zobrazit titulky'
+    ShowSubTitleLabel: 'Zobrazeno na'
+    SubTitle: Podtitul
+    SubTitleLabel: 'Titulky (zobrazí se při výběru)'
+    Thumbnail: 'Miniatura (nepovinné)'

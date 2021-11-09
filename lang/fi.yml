@@ -1,0 +1,38 @@
+fi:
+  SilverCart\Elemental\Extensions\Model\ElementContentExtension:
+    ColumnCount: 'Tekstisarakkeiden lukumäärä'
+    ShowSubTitle: 'Näytä tekstitys'
+    ShowSubTitleLabel: Näytetään
+    SubTitle: Alaotsikko
+    SubTitleLabel: 'Tekstitys (näytetään, kun se on valittu)'
+  SilverCart\Elemental\Model\ElementProduct:
+    BgColorContent: 'Taustan väri teksti'
+    BgColorImage: 'Taustan värikuva'
+    BlockType: 'Kaupan artikkelit'
+    Content: Sisältö
+    ContentDesc: 'Jätä tyhjäksi, jos haluat käyttää artikkelin tekstiä.'
+    Description: 'Lohko, joka näyttää kaupan artikkelin'
+    Image: Kuva
+    ImageDesc: 'Jätä tyhjäksi, jos haluat käyttää artikkelin kuvaa.'
+    Layout: Asettelu
+    LayoutContentLeft: 'Teksti vasemmalla, kuva oikealla'
+    LayoutContentRight: 'Kuva vasemmalla, teksti oikealla'
+    PLURALNAME: 'Kauppa artikkeli Blocks'
+    SINGULARNAME: 'Kaupan artikkelin lohko'
+  SilverCart\Elemental\Model\ElementTextWithImage:
+    BgColorContent: 'Taustan väri teksti'
+    BgColorImage: 'Taustan värikuva'
+    BlockType: 'Teksti ja kuva'
+    Content: Sisältö
+    Description: 'Lohko, joka näyttää tekstin yhdessä kuvan kanssa'
+    Layout: Asettelu
+    LayoutContentLeft: 'Teksti vasemmalla, kuva oikealla'
+    LayoutContentRight: 'Kuva vasemmalla, teksti oikealla'
+    PLURALNAME: 'Teksti ja kuvalohkot'
+    SINGULARNAME: 'Teksti ja kuvalohko'
+    ShowSubTitle: 'Näytä tekstitys'
+    ShowSubTitleLabel: Näytetään
+    SubTitle: Alaotsikko
+    SubTitleLabel: 'Tekstitys (näytetään, kun se on valittu)'
+    Thumbnail: 'Pienoiskuva (valinnainen)'
+    ThumbnailDesc: 'Valinnainen pikkukuva. Käytetään näytössä ennen kuvan napsauttamista.'

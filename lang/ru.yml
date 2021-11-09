@@ -1,0 +1,38 @@
+ru:
+  SilverCart\Elemental\Extensions\Model\ElementContentExtension:
+    ColumnCount: 'Количество текстовых колонок'
+    ShowSubTitle: 'Показать субтитры'
+    ShowSubTitleLabel: Отображается
+    SubTitle: Субтитр
+    SubTitleLabel: 'Субтитры (отображаются при выборе)'
+  SilverCart\Elemental\Model\ElementProduct:
+    BgColorContent: 'Цвет фона текста'
+    BgColorImage: 'Цвет фона изображения'
+    BlockType: 'Статьи из магазина'
+    Content: Содержание
+    ContentDesc: 'Оставьте пустым, чтобы использовать текст статьи.'
+    Description: 'Блок для отображения статьи магазина'
+    Image: Изображение
+    ImageDesc: 'Оставьте пустым, чтобы использовать изображение статьи.'
+    Layout: Макет
+    LayoutContentLeft: 'Текст слева, изображение справа'
+    LayoutContentRight: 'Изображение слева, текст справа'
+    PLURALNAME: 'Статьи по магазинам Блоки'
+    SINGULARNAME: 'Блок статей магазина'
+  SilverCart\Elemental\Model\ElementTextWithImage:
+    BgColorContent: 'Цвет фона текста'
+    BgColorImage: 'Цвет фона изображения'
+    BlockType: 'Текст с картинкой'
+    Content: Содержание
+    Description: 'Блок для отображения текста вместе с картинкой'
+    Layout: Макет
+    LayoutContentLeft: 'Текст слева, изображение справа'
+    LayoutContentRight: 'Изображение слева, текст справа'
+    PLURALNAME: 'Текст с блоками изображений'
+    SINGULARNAME: 'Текст с блоком изображений'
+    ShowSubTitle: 'Показать субтитры'
+    ShowSubTitleLabel: Отображается
+    SubTitle: Субтитр
+    SubTitleLabel: 'Субтитры (отображаются при выборе)'
+    Thumbnail: 'Эскиз (необязательно)'
+    ThumbnailDesc: 'Дополнительная миниатюра. Используется для отображения перед нажатием на изображение.'

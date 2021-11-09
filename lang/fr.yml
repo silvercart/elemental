@@ -1,0 +1,38 @@
+fr:
+  SilverCart\Elemental\Extensions\Model\ElementContentExtension:
+    ColumnCount: 'Nombre de colonnes de texte'
+    ShowSubTitle: 'Afficher les sous-titres'
+    ShowSubTitleLabel: Affiché
+    SubTitle: Sous-titre
+    SubTitleLabel: 'Sous-titres (affichés lorsqu''ils sont sélectionnés)'
+  SilverCart\Elemental\Model\ElementProduct:
+    BgColorContent: 'Couleur de fond du texte'
+    BgColorImage: 'Image de couleur de fond'
+    BlockType: 'Articles de la boutique'
+    Content: Contenu
+    ContentDesc: 'Laisser en blanc pour utiliser le texte de l''article.'
+    Description: 'Bloc pour afficher un article de boutique'
+    Image: Image
+    ImageDesc: 'Laissez vide pour utiliser l''image de l''article.'
+    Layout: 'Mise en page'
+    LayoutContentLeft: 'Texte à gauche, image à droite'
+    LayoutContentRight: 'Image à gauche, texte à droite'
+    PLURALNAME: 'Blocs d''articles de boutique'
+    SINGULARNAME: 'Bloc d''articles de magasin'
+  SilverCart\Elemental\Model\ElementTextWithImage:
+    BgColorContent: 'Couleur de fond du texte'
+    BgColorImage: 'Image de couleur de fond'
+    BlockType: 'Texte avec photo'
+    Content: Contenu
+    Description: 'Bloc pour afficher un texte accompagné d''une image'
+    Layout: 'Mise en page'
+    LayoutContentLeft: 'Texte à gauche, image à droite'
+    LayoutContentRight: 'Image à gauche, texte à droite'
+    PLURALNAME: 'Texte avec blocs d''images'
+    SINGULARNAME: 'Texte avec bloc d''images'
+    ShowSubTitle: 'Afficher les sous-titres'
+    ShowSubTitleLabel: Affiché
+    SubTitle: Sous-titre
+    SubTitleLabel: 'Sous-titres (affichés lorsqu''ils sont sélectionnés)'
+    Thumbnail: 'Vignette (facultatif)'
+    ThumbnailDesc: 'Vignette facultative. Utilisé pour l''affichage avant le clic sur l''image.'

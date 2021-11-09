@@ -1,0 +1,38 @@
+nb_NO:
+  SilverCart\Elemental\Extensions\Model\ElementContentExtension:
+    ColumnCount: 'Antall tekstkolonner'
+    ShowSubTitle: 'Vis undertekster'
+    ShowSubTitleLabel: 'Er vist'
+    SubTitle: undertekst
+    SubTitleLabel: 'Undertekster (vises når valgt)'
+  SilverCart\Elemental\Model\ElementProduct:
+    BgColorContent: Bakgrunnsfargetekst
+    BgColorImage: Bakgrunnsfargebilde
+    BlockType: Butikkvare
+    Content: innhold
+    ContentDesc: 'La stå tomt for å bruke artikkeltekst.'
+    Description: 'Blokker for å vise en butikkvare'
+    Image: bilde
+    ImageDesc: 'La stå tomt for å bruke artikkelbildet.'
+    Layout: oppsett
+    LayoutContentLeft: 'Tekst til venstre, bilde til høyre'
+    LayoutContentRight: 'Bilde til venstre, tekst til høyre'
+    PLURALNAME: Butikkvareblokker
+    SINGULARNAME: Butikkvareblokk
+  SilverCart\Elemental\Model\ElementTextWithImage:
+    BgColorContent: Bakgrunnsfargetekst
+    BgColorImage: Bakgrunnsfargebilde
+    BlockType: 'Tekst med bilde'
+    Content: innhold
+    Description: 'Blokker for å vise en tekst sammen med et bilde'
+    Layout: oppsett
+    LayoutContentLeft: 'Tekst til venstre, bilde til høyre'
+    LayoutContentRight: 'Bilde til venstre, tekst til høyre'
+    PLURALNAME: 'Tekst med bildeblokker'
+    SINGULARNAME: 'Tekst med bildeblokk'
+    ShowSubTitle: 'Vis undertekster'
+    ShowSubTitleLabel: 'Er vist'
+    SubTitle: undertekst
+    SubTitleLabel: 'Undertekster (vises når valgt)'
+    Thumbnail: 'Miniatyrbilde (valgfritt)'
+    ThumbnailDesc: 'Valgfritt miniatyrbilde. Brukes for visning før bildet klikkes.'
