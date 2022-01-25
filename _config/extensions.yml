@@ -7,4 +7,8 @@ DNADesign\Elemental\Models\ElementContent:
         - SilverCart\Elemental\Extensions\Model\ElementTemplateExtension
 Dynamic\Elements\Image\Elements\ElementImage:
     extensions:
+        - SilverCart\Elemental\Extensions\Model\ElementImageExtension
         - SilverCart\Elemental\Extensions\Model\ElementTemplateExtension
+Dynamic\Elements\Promos\Model\PromoObject:
+    extensions:
+        - SilverCart\Extensions\Model\FontAwesomeExtension
