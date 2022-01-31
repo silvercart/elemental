@@ -5,6 +5,9 @@ en:
     ShowSubTitleLabel: Displayed
     SubTitle: subtitles
     SubTitleLabel: 'Subtitles (displayed when selected)'
+  SilverCart\Elemental\Extensions\Model\ElementPromosExtension:
+    UseAlternativeTemplate: 'Use alternative template'
+    UseAlternativeTemplateDesc: 'If checked, the promo items will be rendered in an alternative, more prominent view. Recommended to highlight few promo items.'
   SilverCart\Elemental\Model\ElementProduct:
     BgColorContent: 'Background color Text'
     BgColorImage: 'Background color Image'

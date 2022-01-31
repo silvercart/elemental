@@ -6,6 +6,7 @@ use Dynamic\Elements\CustomerService\Elements\ElementCustomerService;
 use Dynamic\Elements\Features\Elements\ElementFeatures;
 use Dynamic\Elements\Flexslider\Elements\ElementSlideshow;
 use Dynamic\Elements\Image\Elements\ElementImage;
+use Dynamic\Elements\Promos\Elements\ElementPromos;
 use SilverStripe\ORM\DataExtension;
 
 /**
@@ -30,11 +31,13 @@ class BaseElementExtension extends DataExtension
     public function UseOuterContainer() : bool
     {
         $use = !in_array(get_class($this->owner), [
-            ElementCustomerService::class,
-            ElementFeatures::class,
-            ElementSlideshow::class,
-            ElementImage::class,
-        ]);
+                    ElementCustomerService::class,
+                    ElementFeatures::class,
+                    ElementSlideshow::class,
+                    ElementImage::class,
+               ])
+            && !(get_class($this->owner) === ElementPromos::class
+             && $this->owner->UseAlternativeTemplate);
         $this->owner->extend('updateUseOuterContainer', $use);
         return (bool) $use;
     }

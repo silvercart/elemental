@@ -12,6 +12,9 @@ Dynamic\Elements\Image\Elements\ElementImage:
     extensions:
         - SilverCart\Elemental\Extensions\Model\ElementImageExtension
         - SilverCart\Elemental\Extensions\Model\ElementTemplateExtension
+Dynamic\Elements\Promos\Elements\ElementPromos:
+    extensions:
+        - SilverCart\Elemental\Extensions\Model\ElementPromosExtension
 Dynamic\Elements\Promos\Model\PromoObject:
     extensions:
         - SilverCart\Extensions\Model\FontAwesomeExtension
