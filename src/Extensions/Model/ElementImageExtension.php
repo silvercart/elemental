@@ -28,7 +28,7 @@ class ElementImageExtension extends DataExtension
      * @var array
      */
     private static $db = [
-        'Description' => 'Text',
+        'DescriptionText' => 'Text',
     ];
     /**
      * Has one relations.
@@ -55,9 +55,9 @@ class ElementImageExtension extends DataExtension
     public function updateCMSFields(FieldList $fields) : void
     {
         $fields->removeByName('SlideLinkID');
-        $fields->dataFieldByName('Description')->setValue($this->owner->Description);
+        $fields->dataFieldByName('DescriptionText')->setValue($this->owner->DescriptionText);
         $fields->insertAfter(
-            'Description',
+            'DescriptionText',
             LinkField::create('SlideLinkID', $this->owner->fieldLabel('SlideLinkID'))
         );
     }
@@ -71,7 +71,7 @@ class ElementImageExtension extends DataExtension
      */
     public function updateFieldLabels(&$labels) : void
     {
-        $labels['Description'] = _t(SlideImage::class . '.DESCRIPTION', 'Description');
-        $labels['SlideLinkID'] = _t(SlideImage::class . '.PAGE_LINK', 'Call to action link');
+        $labels['DescriptionText'] = _t(SlideImage::class . '.DESCRIPTION', 'Description');
+        $labels['SlideLinkID']     = _t(SlideImage::class . '.PAGE_LINK', 'Call to action link');
     }
 }
