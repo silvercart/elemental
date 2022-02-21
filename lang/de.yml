@@ -32,6 +32,7 @@ de:
     LayoutContentLeft: 'Text links, Bild rechts'
     LayoutContentRight: 'Bild links, Text rechts'
     PLURALNAME: 'Text mit Bild Blöcke'
+    Ratio: 'Seitenverhältnis'
     SINGULARNAME: 'Text mit Bild Block'
     ShowSubTitle: 'Untertitel anzeigen'
     ShowSubTitleLabel: 'Wird angezeigt'

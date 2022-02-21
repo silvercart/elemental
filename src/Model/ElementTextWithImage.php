@@ -46,6 +46,7 @@ class ElementTextWithImage extends BaseElement
         'Layout'         => 'Enum("ContentLeft,ContentRight","ContentLeft")',
         'BgColorContent' => 'Varchar(7)',
         'BgColorImage'   => 'Varchar(7)',
+        'Ratio'          => 'Enum("1:1,2:1","1:1")',
     ];
     /**
      * Has one relations.

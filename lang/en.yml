@@ -32,6 +32,7 @@ en:
     LayoutContentLeft: 'Text left, image right'
     LayoutContentRight: 'Image left, text right'
     PLURALNAME: 'Text with image blocks'
+    Ratio: 'Ratio'
     SINGULARNAME: 'Text with image block'
     ShowSubTitle: 'Show subtitles'
     ShowSubTitleLabel: Displayed
