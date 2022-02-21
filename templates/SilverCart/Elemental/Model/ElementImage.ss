@@ -35,10 +35,17 @@
         <% end_if %>
             <div role="group" class="btn-row btn-row--align-center container--content-flow">
             <% if $SlideLink && $SlideLink.Template != 'buttonghost' %><% with $SlideLink %>
-                <a href="{$LinkURL}"{$TargetAttr}{$setCSSClass('btn btn--default btn--size-primary d-inline-flex').ClassAttr} title="{$Title}">
-                    <div class="btn__label">Mehr</div>
+                <% if $Template == 'button' %>
+                <a href="{$LinkURL}"{$TargetAttr}{$setCSSClass('btn btn-outline-blue-dark btn--size-primary d-inline-flex').ClassAttr} title="{$Title}">
+                    <div class="btn__label">{$Title}</div>
                     <ion-icon name="caret-forward-outline"></ion-icon>
                 </a>
+                <% else %>
+                <a href="{$LinkURL}"{$TargetAttr}{$setCSSClass('btn btn--default btn--size-primary d-inline-flex').ClassAttr} title="{$Title}">
+                    <div class="btn__label">{$Title}</div>
+                    <ion-icon name="caret-forward-outline"></ion-icon>
+                </a>
+                <% end_if %>
             <% end_with %><% end_if %>
             </div>
         </div>
