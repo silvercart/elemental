@@ -1,5 +1,5 @@
 <% if $ShowTitle || $DescriptionText %>
-<div class="banner container-wide overlay--blue-gradient-left-strong">
+<div class="banner container-wide overlay--blue-gradient-left-strong {$ExtraClass}">
     <% if $Image %>
     <div class="overlay__img lazypreload art-direct-image atom art-direct-image--fit-cover" sizes="1440px">
         <div class="art-direct-image__spacer" style="object-position: center center !important;">
@@ -55,7 +55,7 @@
     <% end_with %><% end_if %>
 </div>
 <% else %>
-<div class="banner container-wide overlay--blue-gradient-left-strong">
+<div class="banner container-wide overlay--blue-gradient-left-strong {$ExtraClass}">
     <% if $Image %>
     <div class="overlay__img lazypreload art-direct-image atom art-direct-image--fit-cover" sizes="1440px">
         <div>
