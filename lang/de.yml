@@ -6,8 +6,11 @@ de:
     SubTitle: Untertitel
     SubTitleLabel: 'Untertitel (angezeigt, wenn ausgewählt)'
   SilverCart\Elemental\Extensions\Model\ElementPromosExtension:
-    UseAlternativeTemplate: 'Alternatives Template verwenden'
-    UseAlternativeTemplateDesc: 'Wenn aktiviert, werden die Promo-Items in einem alternativen, prominenteren Layout dargestellt. Empfohlen, um wenige Promo-Items prominent darzustellen.'
+    Template: Template
+    TemplateDesc: 'Zeigt je nach Auswahl eine unterschiedliche Anzeigevariante an.'
+    Template_bigtiles: 'Große Kacheln (empfohlen, wenn für die Promo-Items Bilder verwendet werden)'
+    Template_highlight: 'Highlight (empfohlen, um wenige Promo-Items prominent darzustellen)'
+    Template_smalltiles: 'Kleine Kacheln (empfohlen, wenn für die Promo-Items Icons verwendet werden)'
   SilverCart\Elemental\Model\ElementProduct:
     BgColorContent: 'Hintergrundfarbe Text'
     BgColorImage: 'Hintergrundfarbe Bild'

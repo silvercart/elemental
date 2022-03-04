@@ -7,6 +7,7 @@ use Dynamic\Elements\Features\Elements\ElementFeatures;
 use Dynamic\Elements\Flexslider\Elements\ElementSlideshow;
 use Dynamic\Elements\Image\Elements\ElementImage;
 use Dynamic\Elements\Promos\Elements\ElementPromos;
+use SilverCart\Elemental\Extensions\Model\ElementPromosExtension;
 use SilverStripe\ORM\DataExtension;
 
 /**
@@ -37,7 +38,7 @@ class BaseElementExtension extends DataExtension
                     ElementImage::class,
                ])
             && !(get_class($this->owner) === ElementPromos::class
-             && $this->owner->UseAlternativeTemplate);
+             && $this->owner->Template === ElementPromosExtension::TEMPLATE_HIGHLIGHT);
         $this->owner->extend('updateUseOuterContainer', $use);
         return (bool) $use;
     }

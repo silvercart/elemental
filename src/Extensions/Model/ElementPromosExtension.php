@@ -3,7 +3,6 @@
 namespace SilverCart\Elemental\Extensions\Model;
 
 use SilverCart\Dev\Tools;
-use SilverCart\Forms\FormFields\TextCheckboxGroupField;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\ORM\DataExtension;
 
@@ -21,13 +20,16 @@ use SilverStripe\ORM\DataExtension;
  */
 class ElementPromosExtension extends DataExtension
 {
+    const TEMPLATE_BIG_TILES   = 'bigtiles';
+    const TEMPLATE_HIGHLIGHT   = 'highlight';
+    const TEMPLATE_SMALL_TILES = 'smalltiles';
     /**
      * DB attributes.
      *
      * @var array
      */
     private static $db = [
-        'UseAlternativeTemplate' => 'Boolean',
+        'Template' => 'Enum("smalltiles,highlight,bigtiles","smalltiles")',
     ];
     
     /**
@@ -39,7 +41,13 @@ class ElementPromosExtension extends DataExtension
      */
     public function updateCMSFields(FieldList $fields) : void
     {
-        $fields->dataFieldByName('UseAlternativeTemplate')->setDescription($this->owner->fieldLabel('UseAlternativeTemplateDesc'));
+        $i18nSource = [];
+        foreach ($this->owner->dbObject('Template')->enumValues() as $value => $label) {
+            $i18nSource[$value] = empty($label) ? '' : $this->owner->fieldLabel("Template_{$label}");
+        }
+        $fields->dataFieldByName('Template')
+                ->setSource($i18nSource)
+                ->setDescription($this->owner->fieldLabel('TemplateDesc'));
     }
     
     /**
@@ -48,9 +56,6 @@ class ElementPromosExtension extends DataExtension
      * @param array &$labels Labels to update
      * 
      * @return void
-     * 
-     * @author Sebastian Diel <sdiel@pixeltricks.de>
-     * @since 19.03.2019
      */
     public function updateFieldLabels(&$labels) : void
     {
@@ -58,9 +63,42 @@ class ElementPromosExtension extends DataExtension
             $labels,
             Tools::field_labels_for(self::class),
             [
-                'UseAlternativeTemplate'     => _t(self::class . '.UseAlternativeTemplate', 'Use alternative template'),
-                'UseAlternativeTemplateDesc' => _t(self::class . '.UseAlternativeTemplateDesc', 'If checked, the promo items will be rendered in an alternative, more prominent view. Recommended to highlight few promo items.'),
+                'Template'     => _t(self::class . '.Template', 'Template'),
+                'TemplateDesc' => _t(self::class . '.TemplateDesc', 'Will display a different theme dependent on the chosen template.'),
+                'Template_bigtiles' => _t(self::class . '.Template_bigtiles', 'Big tiles (recommended when using images for each promo item)'),
+                'Template_highlight' => _t(self::class . '.Template_highlight', 'Highlight (recommended to display few promo items with a highlighted theme)'),
+                'Template_smalltiles' => _t(self::class . '.Template_smalltiles', 'Small tiles (recommended when using icons for each promo item)'),
             ]
         );
+    }
+    
+    /**
+     * Returns whether to use the bigtiles template.
+     * 
+     * @return bool
+     */
+    public function UseTemplateBigTiles() : bool
+    {
+        return $this->owner->Template === self::TEMPLATE_BIG_TILES;
+    }
+    
+    /**
+     * Returns whether to use the highlight template.
+     * 
+     * @return bool
+     */
+    public function UseTemplateHighlight() : bool
+    {
+        return $this->owner->Template === self::TEMPLATE_HIGHLIGHT;
+    }
+    
+    /**
+     * Returns whether to use the smalltiles template.
+     * 
+     * @return bool
+     */
+    public function UseTemplateSmallTiles() : bool
+    {
+        return $this->owner->Template === self::TEMPLATE_SMALL_TILES;
     }
 }
