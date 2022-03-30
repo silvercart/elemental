@@ -55,9 +55,9 @@
     <% end_with %><% end_if %>
 </div>
 <% else %>
-<div class="banner container-wide overlay--blue-gradient-left-strong {$ExtraClass}">
+<div class="container-wide overlay--blue-gradient-left-strong {$ExtraClass}">
     <% if $Image %>
-    <div class="overlay__img lazypreload art-direct-image atom art-direct-image--fit-cover" sizes="1440px">
+    <div class="lazypreload art-direct-image atom" sizes="1440px">
         <div>
             <picture>
                 <source data-srcset="
