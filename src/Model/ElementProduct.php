@@ -3,6 +3,7 @@
 namespace SilverCart\Elemental\Model;
 
 use DNADesign\Elemental\Models\BaseElement;
+use Moo\HasOneSelector\Form\Field as HasOneSelector;
 use SilverCart\Model\Product\Product;
 use SilverStripe\Assets\Image;
 use SilverStripe\Forms\FieldList;
@@ -68,6 +69,10 @@ class ElementProduct extends BaseElement
     private static $casting = [
         'DisplayContent' => 'Text',
     ];
+    /**
+     * @var bool
+     */
+    private static $inline_editable = false;
 
     /**
      * Returns the field labels.
@@ -101,12 +106,15 @@ class ElementProduct extends BaseElement
             foreach ($layoutEnumValues as $enumValue) {
                 $layoutSource[$enumValue] = $this->fieldLabel("Layout{$enumValue}");
             }
-            $fields->dataFieldByName('BgColorContent')->setInputType('color')->addExtraClass('w-25 d-inline-block');
-            $fields->dataFieldByName('BgColorImage')->setInputType('color')->addExtraClass('w-25 d-inline-block');
+            $fields->dataFieldByName('BgColorContent')->setInputType('color');
+            $fields->dataFieldByName('BgColorImage')->setInputType('color');
             $fields->dataFieldByName('Layout')->setSource($layoutSource);
             $fields->dataFieldByName('Content')->setDescription($this->fieldLabel('ContentDesc'));
             if ($this->exists()) {
                 $fields->dataFieldByName('Image')->setDescription($this->fieldLabel('ImageDesc'));
+            }
+            if (class_exists(HasOneSelector::class)) {
+                $fields->replaceField('ProductID', HasOneSelector::create('Product', $this->fieldLabel('Product'), $this, Product::class)->setLeftTitle($this->fieldLabel('Product'))->removeAddable());
             }
         });
         return parent::getCMSFields();
