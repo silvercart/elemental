@@ -160,7 +160,8 @@ class ElementProduct extends BaseElement
     {
         $title = $this->getField('Title');
         if (empty($title)
-         && !$this->getCMSFieldsIsCalled) {
+         && !$this->getCMSFieldsIsCalled
+        ) {
             $title = $this->Product()->Title;
         }
         return $title;
